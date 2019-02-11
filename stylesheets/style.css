@@ -369,7 +369,7 @@ body.scale-effect .btn-holder .btn-play {
 }
 
 #loading {
-    background-color: #06A763;
+    background-color: #FFFFFF;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -389,9 +389,9 @@ body.scale-effect .btn-holder .btn-play {
     left: 50%;
     top: 50%;
     height: 200px;
-    width: 271px;
+    width: 400px;
     margin-top: -123px;
-    margin-left: -136px;
+    margin-left: -200px;
 }
 
 #loading .text-holder {

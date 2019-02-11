@@ -6,11 +6,12 @@ $("#color-toggle").on("click", function () {
     }, "slow");
 });
 
+var color_palette = ["blue", "teal", "gray", "green", "purple", "brown", "red", "pink"];
+var color = color_palette[ Math.floor( Math.random() * color_palette.length ) ];
+$("#switch_style").attr("href", "stylesheets/style_" + color + ".css");
+
 $("#blue").on("click", function () {
     $("#switch_style").attr("href", "stylesheets/style_blue.css");
-});
-$("#blue-blend").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_blue_blend.css");
 });
 $("#teal").on("click", function () {
     $("#switch_style").attr("href", "stylesheets/style_teal.css");
@@ -20,9 +21,6 @@ $("#gray").on("click", function () {
 });
 $("#green").on("click", function () {
     $("#switch_style").attr("href", "stylesheets/style_green.css");
-});
-$("#green-blend").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_green_blend.css");
 });
 $("#purple").on("click", function () {
     $("#switch_style").attr("href", "stylesheets/style_purple.css");
@@ -35,10 +33,4 @@ $("#red").on("click", function () {
 });
 $("#pink").on("click", function () {
     $("#switch_style").attr("href", "stylesheets/style_pink.css");
-});
-$("#dark_gray").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_dark_gary.css");
-});
-$("#dark_dark").on("click", function () {
-    $("#switch_style").attr("href", "stylesheets/style_dark_dark.css");
 });

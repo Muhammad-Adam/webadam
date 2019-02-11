@@ -134,6 +134,7 @@
     });
     jQuery(window).on('load', function () {
         function changePage() {
+            window.scrollTo(0 ,0);
             $('div#loading').fadeOut(500);
             window.sr = ScrollReveal({
                 reset: false
@@ -156,6 +157,6 @@
                 distance: '0'
             });
         }
-        setTimeout(changePage, 1);      
+        setTimeout(changePage, 2000);
     });
 })(jQuery);
