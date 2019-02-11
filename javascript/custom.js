@@ -130,7 +130,7 @@
         initScrollToTop();
         initSkills();
         initClientsSliders();
-        initMail();
+        // initMail();
     });
     jQuery(window).on('load', function () {
         function changePage() {
