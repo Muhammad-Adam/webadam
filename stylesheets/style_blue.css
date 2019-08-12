@@ -178,7 +178,7 @@ video {
 .card .card-content p {
     margin: 0;
     color: inherit;
-    text-align: center;
+    text-align: justify;
 }
 
 .modal {
@@ -1105,7 +1105,7 @@ body.scale-effect .btn-holder .btn-play {
     #timeline-education::before {
         left: 50%;
         margin-left: -2px;
-        height: 77.1%;
+        height: 53%;
         opacity: 0.4;
         background: #1F5694;
     }
